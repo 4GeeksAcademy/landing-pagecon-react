@@ -1,12 +1,14 @@
-
-/* 
-
-    You can write your own styles here...
+.container{
+    height: 300px;
+    width: 200px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+ }
+ footer{
+     width: 500px;
+     position: absolute;
+     left: 34%;
+     font-size: 23px;
+ }
+ a{
+     color: rgb(47, 40, 36);
+ }
