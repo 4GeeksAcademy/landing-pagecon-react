@@ -1,7 +1,7 @@
 import React from "react";
 const Footer = () => {
     return (
-        <footer className="py-8 bg-info">
+        <footer className="py-8 bg-dark">
          <div className="container">
           <a href= "https://github.com/adrianallanga"> Pulsa aqui para ir a mi github. Adriana Nayeli</a>
 
