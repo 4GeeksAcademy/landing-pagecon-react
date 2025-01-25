@@ -1,12 +1,15 @@
 import React from "react";
 const Card = () => {
     return (
-  
-    <div className="card-body">
-      <h1 className="card-title">Card title</h1>
-      <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet,consectetur adipisicing elit Sapiente esse  necessitatibus neque</p>
-    <a href="#" className="btn btn-primary">Find out more¡</a>
+      <div class="card" style={{width: "18rem"}}>
+      <img src="..." class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
     </div>
+  
       
 
     )

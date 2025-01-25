@@ -14,7 +14,12 @@ const Home = () => {
 			<Navbar/>
 			<Test/>
 			<Jumbotrom/>
-			<Card/>
+			<div className="d-flex">
+				<Card/>
+				<Card/>
+				<Card/>
+				<Card/>
+			</div>
 		    <Footer/>
 			<h1>
 				

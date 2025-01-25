@@ -1,17 +1,28 @@
 import React from "react";
 const Navbar = () => {
     return (
-        
-    <nav className="py-8 bg-dark">
-      <div className="text">
-        <a class="navbar" href="#" >start Boostarp</a>
-        <a class="navbar-1" aria-current="page" href="#">Home</a>
-        <a class="navbar-2" href="#" >about</a>
-        <a class="navbar-3" href="#" >services</a>
-        <a class="navbar-4">contact</a>
-      </div>
-    </nav>
 
-    )
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-dark">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlinkHref="#bootstrap"></use></svg>
+          <span class="header fs-4">Simple header</span>      </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </header>
+)
 }
-export default Navbar;
+export default Navbar
+
+        
+   
+
+ 
+
+
+
